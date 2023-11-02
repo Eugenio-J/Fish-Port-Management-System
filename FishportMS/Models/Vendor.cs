@@ -8,6 +8,10 @@ namespace FishportMS.Models
         public int vendorId { get; set; }
         public string fullName { get; set; }
 
+        //Relationships
+
+        //vendor can have my product (from Product class)
+        public List<Product> products { get; set; }
 
     }
 }

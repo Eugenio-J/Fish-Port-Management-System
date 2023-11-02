@@ -8,5 +8,8 @@ namespace FishportMS.Models
         public int buyerId { get; set; }
 
         public string buyerName { get; set; }
+
+        //
+        public List<Product> boughtItem { get; set; }
     }
 }
